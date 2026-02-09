@@ -3,6 +3,9 @@
 ## What is a Tuple?
 A tuple is a data structure similar to a list, but unlike lists, tuples are immutable, meaning their contents cannot be changed after creation. Tuples are typically used for grouping related data.
 
+# Is Tuple ordered?
+Tuple is  
+
 ## Creating Tuples
 You can create a tuple in various programming languages. In Python, for example, you create a tuple using parentheses:
 ```python

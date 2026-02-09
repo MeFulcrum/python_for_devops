@@ -1,0 +1,94 @@
+Top-level functions in requests:
+ - check_compatibility
+ - delete
+ - get
+ - head
+ - options
+ - patch
+ - post
+ - put
+ - request
+ - session
+
+Top-level classes in requests (with public methods):
+
+Class: ConnectTimeout
+  (no public methods)
+
+Class: ConnectionError
+  (no public methods)
+
+Class: FileModeWarning
+  (no public methods)
+
+Class: HTTPError
+  (no public methods)
+
+Class: JSONDecodeError
+  (no public methods)
+
+Class: PreparedRequest
+  - copy
+  - deregister_hook
+  - prepare
+  - prepare_auth
+  - prepare_body
+  - prepare_content_length
+  - prepare_cookies
+  - prepare_headers
+  - prepare_hooks
+  - prepare_method
+  - prepare_url
+  - register_hook
+
+Class: ReadTimeout
+  (no public methods)
+
+Class: Request
+  - deregister_hook
+  - prepare
+  - register_hook
+
+Class: RequestException
+  (no public methods)
+
+Class: RequestsDependencyWarning
+  (no public methods)
+
+Class: Response
+  - close
+  - iter_content
+  - iter_lines
+  - json
+  - raise_for_status
+
+Class: Session
+  - close
+  - delete
+  - get
+  - get_adapter
+  - get_redirect_target
+  - head
+  - merge_environment_settings
+  - mount
+  - options
+  - patch
+  - post
+  - prepare_request
+  - put
+  - rebuild_auth
+  - rebuild_method
+  - rebuild_proxies
+  - request
+  - resolve_redirects
+  - send
+  - should_strip_auth
+
+Class: Timeout
+  (no public methods)
+
+Class: TooManyRedirects
+  (no public methods)
+
+Class: URLRequired
+  (no public methods)
