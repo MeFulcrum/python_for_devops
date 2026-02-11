@@ -38,6 +38,7 @@ print(f"Dict: {person}")
 print(f"person['name'] = {person['name']}")
 print(f"person.get('age') = {person.get('age')}")
 print(f"person.get('salary', 'Unknown') = {person.get('salary', 'Unknown')}")
+print(f"salary in person = {'salary' in person}")
 print(f"'name' in person = {'name' in person}")
 print(f"'salary' in person = {'salary' in person}")
 
@@ -68,7 +69,7 @@ for key, val in sample_dict.items():
 
 # 4. get(key, default) - Get value with default
 print(f"\n4. get(key, default=None)")
-print(f"   sample_dict.get('a') = {sample_dict.get('a')}")
+print(f"   sample_dict.get('a' , 'default') = {sample_dict.get('a', 'default')}")
 print(f"   sample_dict.get('z', 'not found') = {sample_dict.get('z', 'not found')}")
 
 # 5. pop(key, default) - Remove and return value
