@@ -10,7 +10,7 @@ class MyClass:
 
 obj = MyClass()
 
-# Functions and methods are callable
+# Functions and methods are callable #Callable means that the object can be called like a function, i.e., using parentheses.
 print(callable(my_function))        # True
 print(callable(obj.method))         # True
 print(callable(MyClass))            # True (classes are callable)
